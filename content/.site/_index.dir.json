@@ -1,0 +1,12 @@
+{
+  "kind": "directory",
+  "authored": {
+    "title": "Site",
+    "description": "Profile, current work, and error pages.",
+    "tags": [
+      "profile",
+      "now",
+      "errors"
+    ]
+  }
+}

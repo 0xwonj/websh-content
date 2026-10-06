@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "scheme": "websh.attestations.v1",
+  "subjects": [
+    {
+      "kind": "document",
+      "route": "/talks/evaluating-compiler-optimization-impacts-on-zkvm-performance.pdf",
+      "issued_at": "2026-10-05",
+      "content_files": [
+        {
+          "path": "content/talks/evaluating-compiler-optimization-impacts-on-zkvm-performance.pdf",
+          "sha256": "0x2652af4104e2138d8b449fe60ff09d0a35217fd8a76fef28478e4219e12583bb",
+          "bytes": 3417199
+        },
+        {
+          "path": "content/talks/evaluating-compiler-optimization-impacts-on-zkvm-performance.pdf.meta.json",
+          "sha256": "0x793e49ba0c2c6673942f47338ba568b28597f59f599c7d510025065641e792ae",
+          "bytes": 440
+        }
+      ],
+      "attestations": [
+        {
+          "type": "pgp",
+          "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+          "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+          "key_path": "assets/crypto/site.asc",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasN4zhsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK0qtAD+L//xpxjC4wiWQrCc6wZ6\nmTwPiNzPVXPvhR4tpZFRfFYA/12V+uygn3Sotgu05mYQvEfUx2s6jdQcs6L6cnMT\nmL0H\n=W1iH\n-----END PGP SIGNATURE-----\n",
+          "message_sha256": "0xa031f9504e6588944e89e18fcef96831846e1c04bf99dd48800258b80bb2be1b"
+        }
+      ]
+    },
+    {
+      "kind": "bundle",
+      "route": "/writing/zk-proofs-from-a-compiler-perspective",
+      "issued_at": "2026-10-05",
+      "content_files": [
+        {
+          "path": "content/writing/zk-proofs-from-a-compiler-perspective/_index.dir.json",
+          "sha256": "0x4a808f6f4381a853d3cf800b401329b8fd3d027222fc4f88bb5c0f0ceaabc956",
+          "bytes": 855
+        },
+        {
+          "path": "content/writing/zk-proofs-from-a-compiler-perspective/en.md",
+          "sha256": "0xd5d84166068bdff14fff60cbdbd4efc7de3ec6476f2a137a683f8be55eca98b8",
+          "bytes": 25398
+        },
+        {
+          "path": "content/writing/zk-proofs-from-a-compiler-perspective/ko.md",
+          "sha256": "0x0ea66ea18c4a4fb46eeb0820634316d6212099a0df9ca38e080db38cfe255337",
+          "bytes": 30275
+        }
+      ],
+      "attestations": [
+        {
+          "type": "pgp",
+          "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+          "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+          "key_path": "assets/crypto/site.asc",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasN4zhsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK32iQEA8je0UjGk2Wd/eIrWMUg8\nQT45fohUu/YnqwAMtaitdEQBAI+TGOSQGqXlQRXg96z31NwDTYiINNqQ44RQNMhU\nuVQG\n=UDDt\n-----END PGP SIGNATURE-----\n",
+          "message_sha256": "0xc9046bc8fc4d5d28d54b2db01ad9ea455b897900d1778a2f4881a47ff552a1be"
+        }
+      ]
+    },
+    {
+      "kind": "bundle",
+      "route": "/writing/zksummit14-review",
+      "issued_at": "2026-10-05",
+      "content_files": [
+        {
+          "path": "content/writing/zksummit14-review/_index.dir.json",
+          "sha256": "0x752e592036b9aba5c6f26006228b0c95f6843596ef4cc1d09cdd04e06fe1df15",
+          "bytes": 952
+        },
+        {
+          "path": "content/writing/zksummit14-review/en.md",
+          "sha256": "0xb9a2e037ca3e418b7bd053aafae1ce9a1ba86b958684aec0220b37f89546fbbc",
+          "bytes": 22282
+        },
+        {
+          "path": "content/writing/zksummit14-review/ko.md",
+          "sha256": "0xbed45d3fcf696908668132a435a322196ba0004641bf24c6d77a3d15477b2de5",
+          "bytes": 24736
+        }
+      ],
+      "attestations": [
+        {
+          "type": "pgp",
+          "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+          "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+          "key_path": "assets/crypto/site.asc",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasN4zhsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK3HBwD9Enj1h3aSOJjMt6hZuh1i\nBpI8AUGlC94Mc4X+XVMtIqAA/jetBhl5Y/q4qwZl4cNgC8Ye3l3GX9uBO2EKOqPL\nVo0A\n=AhIy\n-----END PGP SIGNATURE-----\n",
+          "message_sha256": "0xfe4912b3d221e33530e5ccab1ec5e198b7f431f129d679cd6664549230834db8"
+        }
+      ]
+    }
+  ]
+}

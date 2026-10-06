@@ -1,0 +1,25 @@
+title = "wonjae.eth"
+tagline = "A Homepage, Formalised"
+name = "Wonjae Choi"
+affiliation = "Seoul National University"
+email = "wonjae@snu.ac.kr"
+status = "accepting revisions"
+abstract_text = "We present a personal homepage, formalised. The author is a PhD student working on *zero-knowledge proofs*, *compiler design*, and *Ethereum*. The site is a virtual filesystem; *websh* is the shell that mounts it."
+introduction = "The author is the circuit below; this page is its proof transcript. The job is to convince you, without leaking the *witness*, that the *constraints* are satisfiable."
+public_identity = "Wonjae Choi · PhD @ SNU · Seoul"
+private_identity = "mood, unfinished drafts, open browser tabs (n ≫ 1)"
+research = ["zkVMs", "ZK Compilers", "EVM Compilers"]
+tools = ["Rust", "Python", "Solidity", "LLVM"]
+habits = ["nocturnal", "infinite side projects", "wasting LLM tokens"]
+categories = ["cs.CR", "cs.PL", "cs.DC"]
+keywords = ["zero-knowledge proofs", "compilers", "Ethereum"]
+
+[[links]]
+label = "0xwonj"
+url = "https://github.com/0xwonj"
+kind = "github"
+
+[[links]]
+label = "wonjaechoi"
+url = "https://www.linkedin.com/in/wonj"
+kind = "linkedin"
