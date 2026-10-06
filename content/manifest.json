@@ -92,8 +92,8 @@
         },
         "derived": {
           "title": "now",
-          "size_bytes": 340,
-          "content_sha256": "adc87f424209f16d0e0d6a95287dd2f9e30ea73daf807d522ddec2155882b2f4"
+          "size_bytes": 413,
+          "content_sha256": "f8925b37d76c0d3ad68ea644e602c861201a471b7e9fac04fb8ce4fe848c1c99"
         }
       }
     },
@@ -517,8 +517,8 @@
   "release": {
     "purpose": "websh.content",
     "site": "wonjae.eth",
-    "sequence": 2,
-    "issued_at": 1791285072,
+    "sequence": 3,
+    "issued_at": 1791285631,
     "home": {
       "profile": {
         "title": "wonjae.eth",

@@ -1,3 +1,4 @@
+# Edit these entries, then run `websh-cli publish` from this repository.
 [[items]]
 date = "2026-10-05"
 text = "Building [zkc](https://github.com/zkcompiler/zkc) with support from an Ethereum Foundation grant."
