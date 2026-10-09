@@ -26,7 +26,7 @@
         },
         "derived": {
           "title": ".site",
-          "child_count": 5
+          "child_count": 6
         }
       }
     },
@@ -122,6 +122,18 @@
       }
     },
     {
+      "path": ".site/profile.txt",
+      "metadata": {
+        "kind": "document",
+        "authored": {},
+        "derived": {
+          "title": "profile",
+          "size_bytes": 2834,
+          "content_sha256": "40c2bfb1a61807d0430dda23221f411ae6fdf01d8d4ea82ec33cd9c66b5963d8"
+        }
+      }
+    },
+    {
       "path": ".websh",
       "metadata": {
         "kind": "directory",
@@ -140,17 +152,6 @@
         "derived": {
           "size_bytes": 1317,
           "content_sha256": "3b7365ce592ea56286e354adb34f453a51d7945d20556a597afce4e730e3d787"
-        }
-      }
-    },
-    {
-      "path": ".websh/attestations.json",
-      "metadata": {
-        "kind": "data",
-        "authored": {},
-        "derived": {
-          "size_bytes": 4262,
-          "content_sha256": "365211413b9097f32811486632ee43f58fbc6277b5f41e8509df559f126651ae"
         }
       }
     },
@@ -517,8 +518,8 @@
   "release": {
     "purpose": "websh.content",
     "site": "wonjae.eth",
-    "sequence": 3,
-    "issued_at": 1791285631,
+    "sequence": 6,
+    "issued_at": 1791549767,
     "home": {
       "profile": {
         "title": "wonjae.eth",
@@ -630,6 +631,222 @@
       "talks/evaluating-compiler-optimization-impacts-on-zkvm-performance.pdf",
       "writing/zk-proofs-from-a-compiler-perspective",
       "writing/zksummit14-review"
-    ]
+    ],
+    "attestations": {
+      "version": 1,
+      "scheme": "websh.attestations.v1",
+      "subjects": [
+        {
+          "kind": "home",
+          "route": "/",
+          "site": "wonjae.eth",
+          "content_sha256": "0x91b48f85674022f19464b49435e6c073cf5095fd9269908cfbcd3f3e13e4a971",
+          "issued_at": "2026-10-09",
+          "attestations": [
+            {
+              "type": "pgp",
+              "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+              "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+              "key_path": "assets/crypto/site.asc",
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjXohsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK2DcQD/YX07HhvSBrvKaBlG/zhA\nROrUjLj27e9nvHnNuxU16AUA/jDNF72yQIgybwnnUEO1b0xQjqN3vZwudZQA+/qD\nIXME\n=ii33\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0x6e8b95740507013b14d0c20e454c5cc1d16340ba362687c59366bda110ceb3a4"
+            }
+          ]
+        },
+        {
+          "kind": "ledger",
+          "route": "/ledger",
+          "site": "wonjae.eth",
+          "content_sha256": "0x99df4516954fc046b0b11180a99ddcd18720a2b1cb9e7ab507fc298568145dbb",
+          "issued_at": "2026-10-09",
+          "attestations": [
+            {
+              "type": "pgp",
+              "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+              "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+              "key_path": "assets/crypto/site.asc",
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjhRRsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK1oFwEA8z5HoRIsCykjGoFQw4Iw\nog9ZJu8LcQ9zvm2aZFaOqCMBALr29DbnlSIIWgkrC0RiiXAXP2FOJK2kI4JdPpWJ\n7iUD\n=ST+y\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0x3e7bc23b2b2e7bf203b17aca304d02e7df5e8576b80b25c28059d4e502fee330"
+            }
+          ]
+        },
+        {
+          "kind": "ledger",
+          "route": "/misc",
+          "site": "wonjae.eth",
+          "content_sha256": "0xb26e51d8a4fe9d29a0c027b08dddeb49b106a9539fb8a12423a89894b08d4d9f",
+          "issued_at": "2026-10-09",
+          "attestations": [
+            {
+              "type": "pgp",
+              "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+              "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+              "key_path": "assets/crypto/site.asc",
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjhRhsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK1U2QD/a5NqPsXBRNzxZ/J+xZw0\nn642r2ZIre7ZhRVWwod68TEA/ilMd0S14yRUwfzEgYpnscDg0ER2aO7aUe/QzSqW\n2+oA\n=h4ya\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0xb9f3c95d80a731f5d5ad9497edea01d6a0d1920cec3cc679f682bed585626700"
+            }
+          ]
+        },
+        {
+          "kind": "ledger",
+          "route": "/papers",
+          "site": "wonjae.eth",
+          "content_sha256": "0x454c8a9817180fefce5ddf3ded25c77ec00f512fac63cf82363b62d8ee1d2b97",
+          "issued_at": "2026-10-09",
+          "attestations": [
+            {
+              "type": "pgp",
+              "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+              "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+              "key_path": "assets/crypto/site.asc",
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjhRhsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK2tXAD/QzQq63cYL3qI2rpNTiE0\niFUPxTcZFmwfvG0LANst9ZUBAP+LFu6mkvcozRBnTm1QaTuIu2UiYal+a6YCUY3U\nM90M\n=q7lT\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0x901a50b7feb331c793e129d50531fbd1c35694e1b6ab03f6d3d80e0d9ba854d1"
+            }
+          ]
+        },
+        {
+          "kind": "ledger",
+          "route": "/projects",
+          "site": "wonjae.eth",
+          "content_sha256": "0x95e4a5e98db3faaa7e709b4ae53e897aae6e8c1c4066f601ae580521d4aca68f",
+          "issued_at": "2026-10-09",
+          "attestations": [
+            {
+              "type": "pgp",
+              "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+              "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+              "key_path": "assets/crypto/site.asc",
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjhRxsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK1d4QD/a+2xPC0iYLhV6JvEMXll\nZB2fC+rI4gtRuI9uQ4zh91MBAONr1NqUmfwGDFiMoT/gIU2Qegp42ixqRWRO9DBw\nt+cE\n=K5TN\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0xcb64891bc79f5d574bd7d0e93d5a852f15c603843280bd0729873c458c22e665"
+            }
+          ]
+        },
+        {
+          "kind": "ledger",
+          "route": "/talks",
+          "site": "wonjae.eth",
+          "content_sha256": "0xe487c446817e6bd215480fe1040a52702b94177ad5424f80ff12f587f14de70f",
+          "issued_at": "2026-10-09",
+          "attestations": [
+            {
+              "type": "pgp",
+              "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+              "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+              "key_path": "assets/crypto/site.asc",
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjhRxsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK3KUQEAvnCQT6EsNtvXcyW09ONf\n7zteJydE1HUdsa/+TutBNZwBAMu1GtSZrnSOLtZf4oRAvwbH5Ed8vfqz2Vru7/fX\nbl0M\n=nARf\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0x4f112d0d6ff3db1537559783c6d61bf8cad8ede6010dfe0d24c1ea814e5ef296"
+            }
+          ]
+        },
+        {
+          "kind": "document",
+          "route": "/talks/evaluating-compiler-optimization-impacts-on-zkvm-performance.pdf",
+          "issued_at": "2026-10-05",
+          "content_files": [
+            {
+              "path": "content/talks/evaluating-compiler-optimization-impacts-on-zkvm-performance.pdf",
+              "sha256": "0x2652af4104e2138d8b449fe60ff09d0a35217fd8a76fef28478e4219e12583bb",
+              "bytes": 3417199
+            },
+            {
+              "path": "content/talks/evaluating-compiler-optimization-impacts-on-zkvm-performance.pdf.meta.json",
+              "sha256": "0x793e49ba0c2c6673942f47338ba568b28597f59f599c7d510025065641e792ae",
+              "bytes": 440
+            }
+          ],
+          "attestations": [
+            {
+              "type": "pgp",
+              "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+              "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+              "key_path": "assets/crypto/site.asc",
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasN4zhsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK0qtAD+L//xpxjC4wiWQrCc6wZ6\nmTwPiNzPVXPvhR4tpZFRfFYA/12V+uygn3Sotgu05mYQvEfUx2s6jdQcs6L6cnMT\nmL0H\n=W1iH\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0xa031f9504e6588944e89e18fcef96831846e1c04bf99dd48800258b80bb2be1b"
+            }
+          ]
+        },
+        {
+          "kind": "ledger",
+          "route": "/writing",
+          "site": "wonjae.eth",
+          "content_sha256": "0xa14a6307f49d1a4a489bf3a469a902e8921accb05416f5c2d171bdb9f47fcea2",
+          "issued_at": "2026-10-09",
+          "attestations": [
+            {
+              "type": "pgp",
+              "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+              "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+              "key_path": "assets/crypto/site.asc",
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJAEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjhRxsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK0OMwEA2R0mD+bIbEnm0djzQXEq\n971TRu4fBwLdcXTgUmdjzp8A+LKrszzaRWciL293gTkIn+NKd/NyHlFfmy5o1mR6\neAU=\n=3sjJ\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0xfd5b169e142e643acab8bbd2fd8f5b080e16fd322580c77351d60805cb64c2b0"
+            }
+          ]
+        },
+        {
+          "kind": "bundle",
+          "route": "/writing/zk-proofs-from-a-compiler-perspective",
+          "issued_at": "2026-10-05",
+          "content_files": [
+            {
+              "path": "content/writing/zk-proofs-from-a-compiler-perspective/_index.dir.json",
+              "sha256": "0x4a808f6f4381a853d3cf800b401329b8fd3d027222fc4f88bb5c0f0ceaabc956",
+              "bytes": 855
+            },
+            {
+              "path": "content/writing/zk-proofs-from-a-compiler-perspective/en.md",
+              "sha256": "0xd5d84166068bdff14fff60cbdbd4efc7de3ec6476f2a137a683f8be55eca98b8",
+              "bytes": 25398
+            },
+            {
+              "path": "content/writing/zk-proofs-from-a-compiler-perspective/ko.md",
+              "sha256": "0x0ea66ea18c4a4fb46eeb0820634316d6212099a0df9ca38e080db38cfe255337",
+              "bytes": 30275
+            }
+          ],
+          "attestations": [
+            {
+              "type": "pgp",
+              "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+              "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+              "key_path": "assets/crypto/site.asc",
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasN4zhsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK32iQEA8je0UjGk2Wd/eIrWMUg8\nQT45fohUu/YnqwAMtaitdEQBAI+TGOSQGqXlQRXg96z31NwDTYiINNqQ44RQNMhU\nuVQG\n=UDDt\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0xc9046bc8fc4d5d28d54b2db01ad9ea455b897900d1778a2f4881a47ff552a1be"
+            }
+          ]
+        },
+        {
+          "kind": "bundle",
+          "route": "/writing/zksummit14-review",
+          "issued_at": "2026-10-05",
+          "content_files": [
+            {
+              "path": "content/writing/zksummit14-review/_index.dir.json",
+              "sha256": "0x752e592036b9aba5c6f26006228b0c95f6843596ef4cc1d09cdd04e06fe1df15",
+              "bytes": 952
+            },
+            {
+              "path": "content/writing/zksummit14-review/en.md",
+              "sha256": "0xb9a2e037ca3e418b7bd053aafae1ce9a1ba86b958684aec0220b37f89546fbbc",
+              "bytes": 22282
+            },
+            {
+              "path": "content/writing/zksummit14-review/ko.md",
+              "sha256": "0xbed45d3fcf696908668132a435a322196ba0004641bf24c6d77a3d15477b2de5",
+              "bytes": 24736
+            }
+          ],
+          "attestations": [
+            {
+              "type": "pgp",
+              "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+              "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+              "key_path": "assets/crypto/site.asc",
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasN4zhsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK3HBwD9Enj1h3aSOJjMt6hZuh1i\nBpI8AUGlC94Mc4X+XVMtIqAA/jetBhl5Y/q4qwZl4cNgC8Ye3l3GX9uBO2EKOqPL\nVo0A\n=AhIy\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0xfe4912b3d221e33530e5ccab1ec5e198b7f431f129d679cd6664549230834db8"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

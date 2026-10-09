@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           repository: 0xwonj/websh
-          ref: a71d2e6b09dedcaf2393a4573cbbd999692a8b29
+          ref: 45278adeb2c5adce3714ebd10d8b09d9df87e42d
           path: websh
           persist-credentials: false
       - name: Install pinned native Rust toolchain

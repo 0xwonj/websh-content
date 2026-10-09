@@ -21,7 +21,7 @@ then run from this repository:
 websh-cli publish
 ```
 
-The command generates and validates metadata, explicitly signs the root manifest with
+The command generates and validates metadata, explicitly signs changed page subjects and then the root manifest with
 the owner's local GPG key, creates a frozen content commit and pointer commit, and
 pushes once. No app build, IPFS upload, ENS transaction, or deployment credentials are
 involved. The browser resolves `current.json` and reads only its selected immutable
@@ -37,19 +37,21 @@ history. Historical content links depend on retained commits.
 
 ## Sources and generated files
 
+- `content/.site/profile.txt` supplies the terminal ASCII `whoami` profile.
 - Markdown metadata lives in frontmatter.
 - Binary metadata lives in `file.ext.meta.json`.
 - `_index.dir.json` declares directories, bundles, and explicit publication groups.
 - `content/.websh/mounts/*.mount.json` declares independent unsigned GitHub sources.
 
 `content/manifest.json`, `content/manifest.sig`, `content/.websh/ack.commitment.json`,
-`content/.websh/attestations.json`, and `current.json` are generated. Do not edit them
-by hand. Optional portable article proofs use `websh-cli attest`; the whole root
-snapshot is always authenticated by its own detached manifest signature.
+and `current.json` are generated. Do not edit them by hand. Page signatures live in
+`manifest.release.attestations`; `publish` signs all required subjects automatically.
+Expert export/import and supplemental proofs use `websh-cli attest`. The whole root
+snapshot is authenticated by its own detached manifest signature.
 
 ```bash
 websh-cli sync                       # Generate without signing or network access.
-websh-cli sign                       # Explicitly issue/sign the root manifest.
+websh-cli sign                       # Sign required pages and the root manifest.
 websh-cli check --require-signatures # Read-only validation, suitable for CI.
 ```
 
