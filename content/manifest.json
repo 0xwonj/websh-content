@@ -26,7 +26,7 @@
         },
         "derived": {
           "title": ".site",
-          "child_count": 6
+          "child_count": 8
         }
       }
     },
@@ -39,6 +39,61 @@
           "title": "_index.dir",
           "size_bytes": 195,
           "content_sha256": "370c44c78c33fbff11d29c82a702808874ba36350ead342684b0f2e2979e0e4c"
+        }
+      }
+    },
+    {
+      "path": ".site/about",
+      "metadata": {
+        "kind": "directory",
+        "authored": {},
+        "derived": {
+          "title": "about",
+          "child_count": 2
+        }
+      }
+    },
+    {
+      "path": ".site/about.toml",
+      "metadata": {
+        "kind": "document",
+        "authored": {},
+        "derived": {
+          "title": "about",
+          "size_bytes": 6960,
+          "content_sha256": "ff2f72593fdac06b906833b6f5cbfe4880c068159bc8d83f036f8aae61f50521"
+        }
+      }
+    },
+    {
+      "path": ".site/about/ef.png",
+      "metadata": {
+        "kind": "asset",
+        "authored": {},
+        "derived": {
+          "title": "ef",
+          "image_dimensions": {
+            "width": 320,
+            "height": 102
+          },
+          "size_bytes": 4802,
+          "content_sha256": "21abb62d3e7ba2e482c4f29db69749f12ab229a28ff60047866afd4b714da0e2"
+        }
+      }
+    },
+    {
+      "path": ".site/about/snu.png",
+      "metadata": {
+        "kind": "asset",
+        "authored": {},
+        "derived": {
+          "title": "snu",
+          "image_dimensions": {
+            "width": 2116,
+            "height": 2195
+          },
+          "size_bytes": 83376,
+          "content_sha256": "6efef4d80908f9b1f60f6e5be6baa116020977d1cdbfd571b406cbf16f7dfb53"
         }
       }
     },
@@ -116,8 +171,8 @@
         "authored": {},
         "derived": {
           "title": "profile",
-          "size_bytes": 1165,
-          "content_sha256": "a3ea81f42f97f9ff2b7d0b452fa6ed51bb8d129660a66064c8330b8aac941344"
+          "size_bytes": 989,
+          "content_sha256": "5da9b9994f950233f7f421813d381ef6ace20b4cac077d36ce41c29944369dda"
         }
       }
     },
@@ -129,7 +184,7 @@
         "derived": {
           "title": "profile",
           "size_bytes": 2834,
-          "content_sha256": "40c2bfb1a61807d0430dda23221f411ae6fdf01d8d4ea82ec33cd9c66b5963d8"
+          "content_sha256": "c273d8cab4679a774a9605eaef1520c1283433e44c465e751a4c76045460d9fc"
         }
       }
     },
@@ -208,7 +263,7 @@
         "authored": {},
         "derived": {
           "title": "projects",
-          "child_count": 1
+          "child_count": 2
         }
       }
     },
@@ -221,6 +276,30 @@
           "title": "_index.dir",
           "size_bytes": 44,
           "content_sha256": "25872fceec78099e9941472e1b73d0a65b2d81fca7c5817594d43e09c8ec759f"
+        }
+      }
+    },
+    {
+      "path": "projects/zkc.md",
+      "metadata": {
+        "kind": "github",
+        "authored": {
+          "title": "zkc",
+          "description": "A compiler for zero-knowledge protocols.",
+          "date": "2026-07-01",
+          "tags": [
+            "programming-languages",
+            "compilers",
+            "zk",
+            "formal-verification"
+          ],
+          "github": "zkcompiler/zkc"
+        },
+        "derived": {
+          "title": "zkc",
+          "size_bytes": 346,
+          "content_sha256": "7e841147f1d736ed59a60d98fee522a96c7e5c5f40a4b63ba9c998c82fbd39be",
+          "word_count": 22
         }
       }
     },
@@ -518,30 +597,31 @@
   "release": {
     "purpose": "websh.content",
     "site": "wonjae.eth",
-    "sequence": 6,
-    "issued_at": 1791549767,
+    "sequence": 17,
+    "issued_at": 1791725327,
     "home": {
       "profile": {
         "title": "wonjae.eth",
-        "tagline": "A Homepage, Formalised",
         "name": "Wonjae Choi",
         "affiliation": "Seoul National University",
         "email": "wonjae@snu.ac.kr",
-        "abstract_text": "We present a personal homepage, formalised. The author is a PhD student working on *zero-knowledge proofs*, *compiler design*, and *Ethereum*. The site is a virtual filesystem; *websh* is the shell that mounts it.",
-        "introduction": "The author is the circuit below; this page is its proof transcript. The job is to convince you, without leaking the *witness*, that the *constraints* are satisfiable.",
+        "abstract_text": "We present a personal homepage, formalised. The author is a PhD student working on *zero-knowledge proofs*, *compilers*, and *Ethereum*.",
+        "introduction": "The author is the circuit below; this page is its proof transcript.",
         "public_identity": "Wonjae Choi · PhD @ SNU · Seoul",
         "private_identity": "mood, unfinished drafts, open browser tabs (n ≫ 1)",
         "status": "accepting revisions",
         "research": [
-          "zkVMs",
-          "ZK Compilers",
-          "EVM Compilers"
+          "Compilers",
+          "Formal Verification",
+          "Zero-Knowledge Proofs"
         ],
         "tools": [
           "Rust",
+          "Lean",
           "Python",
           "Solidity",
-          "LLVM"
+          "LLVM",
+          "MLIR"
         ],
         "habits": [
           "nocturnal",
@@ -616,6 +696,284 @@
         "combined_root": "0x0cf81aff67ea9989eb08e49ca31f9ab054b809fa345d1e3fb9b98c2b981e87c9"
       }
     },
+    "about": {
+      "name": "Wonjae Choi",
+      "native_name": "최원재",
+      "native_language": "ko",
+      "origin": "Korea",
+      "location": {
+        "default": "Seoul, KR",
+        "utc_offset_minutes": 540,
+        "stays": []
+      },
+      "current": [
+        {
+          "organization": "Seoul National University",
+          "role": "PhD Student",
+          "url": "https://www.snu.ac.kr/",
+          "description": "Research on programming languages, compilers, and zero-knowledge proofs.",
+          "logo": {
+            "path": "/.site/about/snu.png",
+            "monochrome": true,
+            "width": 1,
+            "height": 1
+          }
+        },
+        {
+          "organization": "Ethereum Foundation",
+          "role": "Grantee",
+          "url": "https://ethereum.foundation/",
+          "description": "Developing [zkc](#/projects/zkc), a compiler for zero-knowledge protocols.",
+          "logo": {
+            "path": "/.site/about/ef.png",
+            "monochrome": false,
+            "width": 62,
+            "height": 102
+          }
+        }
+      ],
+      "timeline": {
+        "preview_years": 3,
+        "entries": [
+          {
+            "id": "ethereum-foundation",
+            "category": "experience",
+            "title": "Ethereum Foundation",
+            "role": "Grantee",
+            "description": "Developing [zkc](#/projects/zkc), a compiler for zero-knowledge protocols, supported by Ethereum Foundation.",
+            "period": {
+              "kind": "duration",
+              "from": "2026-07-01",
+              "through": null
+            }
+          },
+          {
+            "id": "snu-phd",
+            "category": "education",
+            "title": "Seoul National University",
+            "role": "PhD Student",
+            "description": "Electrical and Computer Engineering, [VMO Lab](https://altair.snu.ac.kr/). Research on compilers, zero-knowledge proofs, and blockchain.",
+            "period": {
+              "kind": "duration",
+              "from": "2024-08-01",
+              "through": null
+            }
+          },
+          {
+            "id": "ethereum-collective-korea",
+            "category": "activities",
+            "title": "Ethereum Collective Korea",
+            "role": "Contributor",
+            "description": "Contributing to Ethereum Collective Korea, an organization supporting Ethereum research and community in Korea.",
+            "period": {
+              "kind": "duration",
+              "from": "2026-04-01",
+              "through": null
+            }
+          },
+          {
+            "id": "decipher",
+            "category": "activities",
+            "title": "Decipher",
+            "role": "Senior Researcher",
+            "description": "Member of the 11th cohort of Decipher, a blockchain research society at Seoul National University. Awarded the Best Member Award.",
+            "period": {
+              "kind": "duration",
+              "from": "2023-09-01",
+              "through": "2026-08-31"
+            }
+          },
+          {
+            "id": "ethdenver-2026",
+            "category": "honor",
+            "title": "ETHDenver BUIDLathon",
+            "role": "Winner · Main Track",
+            "description": "[Tabula](https://github.com/0xwonj/tabula), a zero-knowledge virtual machine for typed, tabular state transitions.",
+            "period": {
+              "kind": "milestone",
+              "date": "2026-02-01"
+            }
+          },
+          {
+            "id": "walrus-haulout-2025",
+            "category": "honor",
+            "title": "Sui Walrus Haulout Hackathon",
+            "role": "Best Technical Implementation",
+            "description": "[zkDungeon](https://github.com/0xwonj/dungeon), a verifiable state machine using zero-knowledge proofs, with an RPG demo.",
+            "period": {
+              "kind": "milestone",
+              "date": "2025-12-01"
+            }
+          },
+          {
+            "id": "radius",
+            "category": "experience",
+            "title": "Radius",
+            "role": "Research Engineer",
+            "description": "Researched and developed secure block-building infrastructure for Ethereum using trusted execution environments (TEEs).",
+            "period": {
+              "kind": "duration",
+              "from": "2024-09-01",
+              "through": "2025-03-31"
+            }
+          },
+          {
+            "id": "nethermind",
+            "category": "experience",
+            "title": "Nethermind",
+            "role": "Research Engineer",
+            "description": "Worked on cryptography, zero-knowledge proofs, Ethereum, and Layer 2.",
+            "period": {
+              "kind": "duration",
+              "from": "2024-06-01",
+              "through": "2024-09-30"
+            }
+          },
+          {
+            "id": "yonsei-bsc",
+            "category": "education",
+            "title": "Yonsei University",
+            "role": "BSc, Computer Science",
+            "description": "Undergraduate studies in Computer Science.",
+            "period": {
+              "kind": "duration",
+              "from": "2020-02-01",
+              "through": "2024-08-31"
+            }
+          },
+          {
+            "id": "snu-internship",
+            "category": "experience",
+            "title": "Seoul National University",
+            "role": "Research Intern",
+            "description": "Conducted research on blockchain at the [VMO Lab](https://altair.snu.ac.kr/).",
+            "period": {
+              "kind": "duration",
+              "from": "2024-01-01",
+              "through": "2024-06-30"
+            }
+          },
+          {
+            "id": "quantitative-trading",
+            "category": "experience",
+            "title": "Stealth",
+            "role": "Quantitative Trader",
+            "description": "Algorithmic trading and arbitrage across centralized and decentralized exchanges and options markets.",
+            "period": {
+              "kind": "duration",
+              "from": "2022-01-01",
+              "through": "2023-12-31"
+            }
+          },
+          {
+            "id": "protocol-camp",
+            "category": "activities",
+            "title": "Protocol Camp",
+            "role": "Mentor",
+            "description": "Mentored the fifth cohort of [Protocol Camp](https://www.protocolcamp.com/), a Web3 bootcamp organized by Hashed and Hanwha.",
+            "period": {
+              "kind": "duration",
+              "from": "2023-09-01",
+              "through": "2023-12-31"
+            }
+          },
+          {
+            "id": "chainlink-constellation-2023",
+            "category": "honor",
+            "title": "Chainlink Constellation Hackathon",
+            "role": "Top Quality Prize · Best Use of Subgraph",
+            "description": "[Shylock Finance](https://github.com/Chainlink-Constellation-Shylock/Shylock-Finance), an under-collateralized cross-chain lending protocol using CCIP.",
+            "period": {
+              "kind": "milestone",
+              "date": "2023-12-01"
+            }
+          },
+          {
+            "id": "viction-horizon-2023",
+            "category": "honor",
+            "title": "Viction Horizon",
+            "role": "3rd Place · DeFi",
+            "description": "[Doldrums Protocol](https://github.com/Viction-Hack/delta-neutral-contract), a cross-chain delta-neutral stablecoin.",
+            "period": {
+              "kind": "milestone",
+              "date": "2023-11-01"
+            }
+          },
+          {
+            "id": "ripple-summer-2023",
+            "category": "honor",
+            "title": "Ripple Hackathon",
+            "role": "Grand Prize",
+            "description": "[CLP-Helix](https://github.com/0xwonj/CLP-hooks), a concentrated liquidity pool on XRP Ledger using WASM contracts.",
+            "period": {
+              "kind": "milestone",
+              "date": "2023-09-01"
+            }
+          },
+          {
+            "id": "ethglobal-tokyo-2023",
+            "category": "honor",
+            "title": "ETHGlobal Tokyo",
+            "role": "Polygon Prize",
+            "description": "Fuga Protocol, an implementation of federated learning on the EVM.",
+            "period": {
+              "kind": "milestone",
+              "date": "2023-04-01"
+            }
+          }
+        ]
+      },
+      "personal": [
+        {
+          "label": "Music",
+          "parts": [
+            {
+              "kind": "text",
+              "text": "I enjoy a wide range of genres, but hip-hop is my favorite. My favorite artists are [XXXtentacion](https://open.spotify.com/artist/15UsOTVnJzReFVN1VCnxy4), [C JAMM](https://open.spotify.com/artist/2ZT3bnHPOdErwCLdP5aHqR), and [YANGHONGWON](https://open.spotify.com/artist/1SsVqqC31h54Hg08g7uQhM)."
+            }
+          ]
+        },
+        {
+          "label": "Interests",
+          "parts": [
+            {
+              "kind": "list",
+              "label": "Video games",
+              "description": "A selection of personal favorites.",
+              "items": [
+                "Cyberpunk 2077",
+                "Terraria",
+                "Pokémon",
+                "MapleStory",
+                "Baldur's Gate 3",
+                "Elden Ring",
+                "Football Manager",
+                "Slay the Spire I & II",
+                "Hades",
+                "Monster Hunter",
+                "Skul",
+                "Fear & Hunger",
+                "Caves of Qud",
+                "Project Zomboid"
+              ]
+            },
+            {
+              "kind": "text",
+              "text": ", poker, football, tech, clothes, fragrances, tea, and wine."
+            }
+          ]
+        },
+        {
+          "label": "Languages",
+          "parts": [
+            {
+              "kind": "text",
+              "text": "I speak Korean, English, and a little Japanese. My favorites, though, are Rust and Lean."
+            }
+          ]
+        }
+      ]
+    },
     "mounts": [
       {
         "backend": "github",
@@ -628,6 +986,7 @@
       }
     ],
     "publications": [
+      "projects/zkc.md",
       "talks/evaluating-compiler-optimization-impacts-on-zkvm-performance.pdf",
       "writing/zk-proofs-from-a-compiler-perspective",
       "writing/zksummit14-review"
@@ -640,16 +999,33 @@
           "kind": "home",
           "route": "/",
           "site": "wonjae.eth",
-          "content_sha256": "0x91b48f85674022f19464b49435e6c073cf5095fd9269908cfbcd3f3e13e4a971",
-          "issued_at": "2026-10-09",
+          "content_sha256": "0x5bae970009a8dbd8f916e466aaf52d2b8630bb560ddfcb98bf61403e8d1fe225",
+          "issued_at": "2026-10-11",
           "attestations": [
             {
               "type": "pgp",
               "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
               "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
               "key_path": "assets/crypto/site.asc",
-              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjXohsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK2DcQD/YX07HhvSBrvKaBlG/zhA\nROrUjLj27e9nvHnNuxU16AUA/jDNF72yQIgybwnnUEO1b0xQjqN3vZwudZQA+/qD\nIXME\n=ii33\n-----END PGP SIGNATURE-----\n",
-              "message_sha256": "0x6e8b95740507013b14d0c20e454c5cc1d16340ba362687c59366bda110ceb3a4"
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasuPDhsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK1SzAEApGvTiJXZEteMP2C8hUXO\nIf4pf8YaLEz//wr/qfaAQZEA/igQ4GKAs5U3QGi78Wzf68JJ1U5J1VDSRDNZB9ME\nFhIG\n=esb8\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0xfda5d65e693854149c154a40599b210b01f7016fb11f50a481fa3177b4b41dc7"
+            }
+          ]
+        },
+        {
+          "kind": "about",
+          "route": "/about",
+          "site": "wonjae.eth",
+          "content_sha256": "0xfae9fe03fedf549fed79308f7e79e48a12b4737462602d7c83947e5d10858090",
+          "issued_at": "2026-10-11",
+          "attestations": [
+            {
+              "type": "pgp",
+              "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+              "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+              "key_path": "assets/crypto/site.asc",
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJAEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCast/FxsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK150AD/VrFS3MbcABw9wToUcldI\neXPAdCBicf6J5YIwBN0Bo5IA9A0th028smVhKZBAbat2M/agibpsgrulYW3PEbsP\nrgg=\n=6gLr\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0x6aede3b783a76a2c22244b6fcdb5005d98da06aae6686ad9cf3c9115a2c906b8"
             }
           ]
         },
@@ -657,16 +1033,16 @@
           "kind": "ledger",
           "route": "/ledger",
           "site": "wonjae.eth",
-          "content_sha256": "0x99df4516954fc046b0b11180a99ddcd18720a2b1cb9e7ab507fc298568145dbb",
-          "issued_at": "2026-10-09",
+          "content_sha256": "0x6212753b105bec70e8c98a762e421b2f6dc80a91e67d3f2dc6d0b036df9a2ec2",
+          "issued_at": "2026-10-10",
           "attestations": [
             {
               "type": "pgp",
               "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
               "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
               "key_path": "assets/crypto/site.asc",
-              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjhRRsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK1oFwEA8z5HoRIsCykjGoFQw4Iw\nog9ZJu8LcQ9zvm2aZFaOqCMBALr29DbnlSIIWgkrC0RiiXAXP2FOJK2kI4JdPpWJ\n7iUD\n=ST+y\n-----END PGP SIGNATURE-----\n",
-              "message_sha256": "0x3e7bc23b2b2e7bf203b17aca304d02e7df5e8576b80b25c28059d4e502fee330"
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasrIjBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK2KWgD/XdGeMmIHzv8KGfQTyTGl\nGl2zWCgV31Jz5VJ7QXMXV5IA/AsFccolKxMYMUFujPUzOtbwKOUuBHtld9fLe8L7\nVrYI\n=qvLd\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0x743939654e00f30e95a0570a1c4e1072bd24b0a65979a207f9d2d1f2499666fc"
             }
           ]
         },
@@ -674,16 +1050,16 @@
           "kind": "ledger",
           "route": "/misc",
           "site": "wonjae.eth",
-          "content_sha256": "0xb26e51d8a4fe9d29a0c027b08dddeb49b106a9539fb8a12423a89894b08d4d9f",
-          "issued_at": "2026-10-09",
+          "content_sha256": "0x809cedc1a3daffce704c90f51f0b4bb7547e4668f5a2cbb11708cd89e7913d42",
+          "issued_at": "2026-10-10",
           "attestations": [
             {
               "type": "pgp",
               "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
               "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
               "key_path": "assets/crypto/site.asc",
-              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjhRhsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK1U2QD/a5NqPsXBRNzxZ/J+xZw0\nn642r2ZIre7ZhRVWwod68TEA/ilMd0S14yRUwfzEgYpnscDg0ER2aO7aUe/QzSqW\n2+oA\n=h4ya\n-----END PGP SIGNATURE-----\n",
-              "message_sha256": "0xb9f3c95d80a731f5d5ad9497edea01d6a0d1920cec3cc679f682bed585626700"
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasrIjBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK2dgQD+IxB4822/28unaWjRHbsx\n6WHUCpEQ39JERFik6+ezpCQA+gNWBDZrr0GTRHKJNuWqZRz8gdKUWxyIIcBNsU2T\nkhYP\n=CQE4\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0x105615885db62add92483ca13d2c43a5b72a89508eb63e25c392048e81e97154"
             }
           ]
         },
@@ -691,16 +1067,16 @@
           "kind": "ledger",
           "route": "/papers",
           "site": "wonjae.eth",
-          "content_sha256": "0x454c8a9817180fefce5ddf3ded25c77ec00f512fac63cf82363b62d8ee1d2b97",
-          "issued_at": "2026-10-09",
+          "content_sha256": "0x9bfee5d23435dc58001ac89be96685ec4280d46fabc689ba42cc2cc34b672766",
+          "issued_at": "2026-10-10",
           "attestations": [
             {
               "type": "pgp",
               "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
               "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
               "key_path": "assets/crypto/site.asc",
-              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjhRhsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK2tXAD/QzQq63cYL3qI2rpNTiE0\niFUPxTcZFmwfvG0LANst9ZUBAP+LFu6mkvcozRBnTm1QaTuIu2UiYal+a6YCUY3U\nM90M\n=q7lT\n-----END PGP SIGNATURE-----\n",
-              "message_sha256": "0x901a50b7feb331c793e129d50531fbd1c35694e1b6ab03f6d3d80e0d9ba854d1"
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasrIjBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK1UygD+PXK6uxhMQLW9JSniVyty\n21VnXvNZMJMWQ+Zf6GqBULABANOS25/Kj6BGjmpg/dIym7CyzlkdP6QVJdhluSxj\nLt4K\n=k7GZ\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0x82e191cd4b435663a125a14f8eb6bc4744a5b1c40e592a35068df0894f4d5375"
             }
           ]
         },
@@ -708,16 +1084,38 @@
           "kind": "ledger",
           "route": "/projects",
           "site": "wonjae.eth",
-          "content_sha256": "0x95e4a5e98db3faaa7e709b4ae53e897aae6e8c1c4066f601ae580521d4aca68f",
-          "issued_at": "2026-10-09",
+          "content_sha256": "0x95fdcae3cba122055b54e90ee9cd9d158c3b27be8891e2d2f6d155582390db6f",
+          "issued_at": "2026-10-10",
           "attestations": [
             {
               "type": "pgp",
               "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
               "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
               "key_path": "assets/crypto/site.asc",
-              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjhRxsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK1d4QD/a+2xPC0iYLhV6JvEMXll\nZB2fC+rI4gtRuI9uQ4zh91MBAONr1NqUmfwGDFiMoT/gIU2Qegp42ixqRWRO9DBw\nt+cE\n=K5TN\n-----END PGP SIGNATURE-----\n",
-              "message_sha256": "0xcb64891bc79f5d574bd7d0e93d5a852f15c603843280bd0729873c458c22e665"
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasrIjBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK3iUwD/XDfPtvcjRe3JNET5Y3WA\ntlB8gRhV7XWBzxpSZ6xsa+UBAM+bUkiRHECmR/PL1BSym2dUKm+ftHLilzKjcTiv\nV/ML\n=V1dA\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0x7318f17a4704ab666d193df0875431b7c073dabc1f96903e0dc86caa00f9b4bb"
+            }
+          ]
+        },
+        {
+          "kind": "github",
+          "route": "/projects/zkc",
+          "issued_at": "2026-10-10",
+          "content_files": [
+            {
+              "path": "content/projects/zkc.md",
+              "sha256": "0x7e841147f1d736ed59a60d98fee522a96c7e5c5f40a4b63ba9c998c82fbd39be",
+              "bytes": 346
+            }
+          ],
+          "attestations": [
+            {
+              "type": "pgp",
+              "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
+              "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
+              "key_path": "assets/crypto/site.asc",
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasrIjBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK28FAEAj2yR7uYQcwEzBwsIMz2N\nMCb+3gO2LVIg2Vax+4dyWlUBAKqy4430jieYaTdaScr3Ly0k+HrgTmmCj8QG733J\nDhkD\n=3m6S\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0x342e42037ffc4453e72ac4c3a703fbd0b2642d7d9f7e54686c0bb6a0a32a562a"
             }
           ]
         },
@@ -725,16 +1123,16 @@
           "kind": "ledger",
           "route": "/talks",
           "site": "wonjae.eth",
-          "content_sha256": "0xe487c446817e6bd215480fe1040a52702b94177ad5424f80ff12f587f14de70f",
-          "issued_at": "2026-10-09",
+          "content_sha256": "0xd7ea81e5a94439bc86a157f7c43401dc4d8f2862e76743d48f085bef47a3ee3d",
+          "issued_at": "2026-10-10",
           "attestations": [
             {
               "type": "pgp",
               "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
               "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
               "key_path": "assets/crypto/site.asc",
-              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjhRxsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK3KUQEAvnCQT6EsNtvXcyW09ONf\n7zteJydE1HUdsa/+TutBNZwBAMu1GtSZrnSOLtZf4oRAvwbH5Ed8vfqz2Vru7/fX\nbl0M\n=nARf\n-----END PGP SIGNATURE-----\n",
-              "message_sha256": "0x4f112d0d6ff3db1537559783c6d61bf8cad8ede6010dfe0d24c1ea814e5ef296"
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasrIjBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK1pDAEApLwmuL8B0K/R6InSQHfb\nGAVuZ5/SYWk0GfVe5mjt2gEA/3BGc4WBuEw1wRSceNj9/Q68bgfRbfyONrauooE3\nzCoL\n=15wW\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0x8881664cbcdc6ed1acb40684379e92955800bfcc16b3f61b76165cd9d7126b37"
             }
           ]
         },
@@ -769,16 +1167,16 @@
           "kind": "ledger",
           "route": "/writing",
           "site": "wonjae.eth",
-          "content_sha256": "0xa14a6307f49d1a4a489bf3a469a902e8921accb05416f5c2d171bdb9f47fcea2",
-          "issued_at": "2026-10-09",
+          "content_sha256": "0xd3f69dde69511b1dcff753c9388aa953fd4d8dfddf9769a9268b928e6b03183f",
+          "issued_at": "2026-10-10",
           "attestations": [
             {
               "type": "pgp",
               "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
               "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
               "key_path": "assets/crypto/site.asc",
-              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJAEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasjhRxsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK0OMwEA2R0mD+bIbEnm0djzQXEq\n971TRu4fBwLdcXTgUmdjzp8A+LKrszzaRWciL293gTkIn+NKd/NyHlFfmy5o1mR6\neAU=\n=3sjJ\n-----END PGP SIGNATURE-----\n",
-              "message_sha256": "0xfd5b169e142e643acab8bbd2fd8f5b080e16fd322580c77351d60805cb64c2b0"
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCasrIjBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK1u1gD+JSt5uUyuHevPWP1KzPzX\nutZhK1ZnsYhM8rGR1PlgP6MA/1g0nZTlL2WNcVtEhtpy+QPBoMRf7OkBuZnXrpah\nGJoM\n=6Tqz\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0xbad174996b239d4faebf38c0a4b2af704df4131df67b8fc21a4238a204e9ed1f"
             }
           ]
         },

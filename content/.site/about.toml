@@ -1,0 +1,203 @@
+name = "Wonjae Choi"
+native_name = "최원재"
+native_language = "ko"
+origin = "Korea"
+
+[location]
+default = "Seoul, KR"
+utc_offset_minutes = 540
+stays = []
+
+[[current]]
+organization = "Seoul National University"
+role = "PhD Student"
+url = "https://www.snu.ac.kr/"
+description = "Research on programming languages, compilers, and zero-knowledge proofs."
+[current.logo]
+path = "/.site/about/snu.png"
+monochrome = true
+width = 1
+height = 1
+
+[[current]]
+organization = "Ethereum Foundation"
+role = "Grantee"
+url = "https://ethereum.foundation/"
+description = "Developing [zkc](#/projects/zkc), a compiler for zero-knowledge protocols."
+[current.logo]
+path = "/.site/about/ef.png"
+monochrome = false
+width = 62
+height = 102
+
+[timeline]
+preview_years = 3
+# Sources give month-level dates. First/last days anchor the timeline geometry;
+# displayed dates retain that monthly precision. Ongoing entries come first,
+# followed by completed entries in reverse chronological order.
+
+[[timeline.entries]]
+id = "ethereum-foundation"
+category = "experience"
+title = "Ethereum Foundation"
+role = "Grantee"
+description = "Developing [zkc](#/projects/zkc), a compiler for zero-knowledge protocols, supported by Ethereum Foundation."
+period = { kind = "duration", from = "2026-07-01" }
+
+[[timeline.entries]]
+id = "snu-phd"
+category = "education"
+title = "Seoul National University"
+role = "PhD Student"
+description = "Electrical and Computer Engineering, [VMO Lab](https://altair.snu.ac.kr/). Research on compilers, zero-knowledge proofs, and blockchain."
+period = { kind = "duration", from = "2024-08-01" }
+
+[[timeline.entries]]
+id = "ethereum-collective-korea"
+category = "activities"
+title = "Ethereum Collective Korea"
+role = "Contributor"
+description = "Contributing to Ethereum Collective Korea, an organization supporting Ethereum research and community in Korea."
+period = { kind = "duration", from = "2026-04-01" }
+
+[[timeline.entries]]
+id = "decipher"
+category = "activities"
+title = "Decipher"
+role = "Senior Researcher"
+description = "Member of the 11th cohort of Decipher, a blockchain research society at Seoul National University. Awarded the Best Member Award."
+period = { kind = "duration", from = "2023-09-01", through = "2026-08-31" }
+
+[[timeline.entries]]
+id = "ethdenver-2026"
+category = "honor"
+title = "ETHDenver BUIDLathon"
+role = "Winner · Main Track"
+description = "[Tabula](https://github.com/0xwonj/tabula), a zero-knowledge virtual machine for typed, tabular state transitions."
+period = { kind = "milestone", date = "2026-02-01" }
+
+[[timeline.entries]]
+id = "walrus-haulout-2025"
+category = "honor"
+title = "Sui Walrus Haulout Hackathon"
+role = "Best Technical Implementation"
+description = "[zkDungeon](https://github.com/0xwonj/dungeon), a verifiable state machine using zero-knowledge proofs, with an RPG demo."
+period = { kind = "milestone", date = "2025-12-01" }
+
+[[timeline.entries]]
+id = "radius"
+category = "experience"
+title = "Radius"
+role = "Research Engineer"
+description = "Researched and developed secure block-building infrastructure for Ethereum using trusted execution environments (TEEs)."
+period = { kind = "duration", from = "2024-09-01", through = "2025-03-31" }
+
+[[timeline.entries]]
+id = "nethermind"
+category = "experience"
+title = "Nethermind"
+role = "Research Engineer"
+description = "Worked on cryptography, zero-knowledge proofs, Ethereum, and Layer 2."
+period = { kind = "duration", from = "2024-06-01", through = "2024-09-30" }
+
+[[timeline.entries]]
+id = "yonsei-bsc"
+category = "education"
+title = "Yonsei University"
+role = "BSc, Computer Science"
+description = "Undergraduate studies in Computer Science."
+period = { kind = "duration", from = "2020-02-01", through = "2024-08-31" }
+
+[[timeline.entries]]
+id = "snu-internship"
+category = "experience"
+title = "Seoul National University"
+role = "Research Intern"
+description = "Conducted research on blockchain at the [VMO Lab](https://altair.snu.ac.kr/)."
+period = { kind = "duration", from = "2024-01-01", through = "2024-06-30" }
+
+[[timeline.entries]]
+id = "quantitative-trading"
+category = "experience"
+title = "Stealth"
+role = "Quantitative Trader"
+description = "Algorithmic trading and arbitrage across centralized and decentralized exchanges and options markets."
+period = { kind = "duration", from = "2022-01-01", through = "2023-12-31" }
+
+[[timeline.entries]]
+id = "protocol-camp"
+category = "activities"
+title = "Protocol Camp"
+role = "Mentor"
+description = "Mentored the fifth cohort of [Protocol Camp](https://www.protocolcamp.com/), a Web3 bootcamp organized by Hashed and Hanwha."
+period = { kind = "duration", from = "2023-09-01", through = "2023-12-31" }
+
+[[timeline.entries]]
+id = "chainlink-constellation-2023"
+category = "honor"
+title = "Chainlink Constellation Hackathon"
+role = "Top Quality Prize · Best Use of Subgraph"
+description = "[Shylock Finance](https://github.com/Chainlink-Constellation-Shylock/Shylock-Finance), an under-collateralized cross-chain lending protocol using CCIP."
+period = { kind = "milestone", date = "2023-12-01" }
+
+[[timeline.entries]]
+id = "viction-horizon-2023"
+category = "honor"
+title = "Viction Horizon"
+role = "3rd Place · DeFi"
+description = "[Doldrums Protocol](https://github.com/Viction-Hack/delta-neutral-contract), a cross-chain delta-neutral stablecoin."
+period = { kind = "milestone", date = "2023-11-01" }
+
+[[timeline.entries]]
+id = "ripple-summer-2023"
+category = "honor"
+title = "Ripple Hackathon"
+role = "Grand Prize"
+description = "[CLP-Helix](https://github.com/0xwonj/CLP-hooks), a concentrated liquidity pool on XRP Ledger using WASM contracts."
+period = { kind = "milestone", date = "2023-09-01" }
+
+[[timeline.entries]]
+id = "ethglobal-tokyo-2023"
+category = "honor"
+title = "ETHGlobal Tokyo"
+role = "Polygon Prize"
+description = "Fuga Protocol, an implementation of federated learning on the EVM."
+period = { kind = "milestone", date = "2023-04-01" }
+
+[[personal]]
+label = "Music"
+[[personal.parts]]
+kind = "text"
+text = "I enjoy a wide range of genres, but hip-hop is my favorite. My favorite artists are [XXXtentacion](https://open.spotify.com/artist/15UsOTVnJzReFVN1VCnxy4), [C JAMM](https://open.spotify.com/artist/2ZT3bnHPOdErwCLdP5aHqR), and [YANGHONGWON](https://open.spotify.com/artist/1SsVqqC31h54Hg08g7uQhM)."
+
+[[personal]]
+label = "Interests"
+[[personal.parts]]
+kind = "list"
+label = "Video games"
+description = "A selection of personal favorites."
+items = [
+  "Cyberpunk 2077",
+  "Terraria",
+  "Pokémon",
+  "MapleStory",
+  "Baldur's Gate 3",
+  "Elden Ring",
+  "Football Manager",
+  "Slay the Spire I & II",
+  "Hades",
+  "Monster Hunter",
+  "Skul",
+  "Fear & Hunger",
+  "Caves of Qud",
+  "Project Zomboid",
+]
+[[personal.parts]]
+kind = "text"
+text = ", poker, football, tech, clothes, fragrances, tea, and wine."
+
+[[personal]]
+label = "Languages"
+[[personal.parts]]
+kind = "text"
+text = "I speak Korean, English, and a little Japanese. My favorites, though, are Rust and Lean."
