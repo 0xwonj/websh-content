@@ -60,8 +60,8 @@
         "authored": {},
         "derived": {
           "title": "about",
-          "size_bytes": 6960,
-          "content_sha256": "ff2f72593fdac06b906833b6f5cbfe4880c068159bc8d83f036f8aae61f50521"
+          "size_bytes": 7039,
+          "content_sha256": "0d65abc6f8b54d9921d5b711fd22297ceef826e0ae9ca4fc41434cb22f442409"
         }
       }
     },
@@ -597,8 +597,8 @@
   "release": {
     "purpose": "websh.content",
     "site": "wonjae.eth",
-    "sequence": 17,
-    "issued_at": 1791725327,
+    "sequence": 18,
+    "issued_at": 1791852157,
     "home": {
       "profile": {
         "title": "wonjae.eth",
@@ -704,7 +704,13 @@
       "location": {
         "default": "Seoul, KR",
         "utc_offset_minutes": 540,
-        "stays": []
+        "stays": [
+          {
+            "from": "2026-10-12",
+            "through": "2026-10-16",
+            "location": "Cambridge, UK"
+          }
+        ]
       },
       "current": [
         {
@@ -1016,16 +1022,16 @@
           "kind": "about",
           "route": "/about",
           "site": "wonjae.eth",
-          "content_sha256": "0xfae9fe03fedf549fed79308f7e79e48a12b4737462602d7c83947e5d10858090",
-          "issued_at": "2026-10-11",
+          "content_sha256": "0x551c687a67c54cae0d3b0a8a08227ad19eb92f9079ab4b3126562ff42b0a7aeb",
+          "issued_at": "2026-10-13",
           "attestations": [
             {
               "type": "pgp",
               "signer": "Wonjae Choi <wonjae@snu.ac.kr>",
               "fingerprint": "6CA8E0E8E0F9B9EE2F92EE49BEE7501AEA7758AD",
               "key_path": "assets/crypto/site.asc",
-              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJAEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCast/FxsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK150AD/VrFS3MbcABw9wToUcldI\neXPAdCBicf6J5YIwBN0Bo5IA9A0th028smVhKZBAbat2M/agibpsgrulYW3PEbsP\nrgg=\n=6gLr\n-----END PGP SIGNATURE-----\n",
-              "message_sha256": "0x6aede3b783a76a2c22244b6fcdb5005d98da06aae6686ad9cf3c9115a2c906b8"
+              "signature": "-----BEGIN PGP SIGNATURE-----\n\niJEEABYKADkWIQRsqODo4Pm57i+S7km+51Aa6ndYrQUCas1+fBsUgAAAAAAEAA5t\nYW51MiwyLjUrMS4xMiwwLDMACgkQvudQGup3WK3AjwD/a91+6tCe9h+wzslryEef\nq35Z/TsTR8ctNQ5Zs9OfvuMA/35rBy4Y/kKe9T48nwWOdT6x/fcQIXj6kQmGGEFm\n5IkJ\n=Lpcw\n-----END PGP SIGNATURE-----\n",
+              "message_sha256": "0x1e28033f7e2d06ac5d5555d507531f86d4339a322ed1d5bd868f9d2427add51d"
             }
           ]
         },

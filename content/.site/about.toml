@@ -6,7 +6,11 @@ origin = "Korea"
 [location]
 default = "Seoul, KR"
 utc_offset_minutes = 540
-stays = []
+
+[[location.stays]]
+from = "2026-10-12"
+through = "2026-10-16"
+location = "Cambridge, UK"
 
 [[current]]
 organization = "Seoul National University"
